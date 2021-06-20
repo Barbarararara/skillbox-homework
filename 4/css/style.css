@@ -138,14 +138,31 @@ h1,
 }
 
 .container>img {
+  border: 1px solid #b6b6b6;
+
   margin-bottom: 40px;
-  width: 872px;
+  max-width: 872px;
+  max-height: 500px;
 }
 
 figure {
   display: inline-block;
   margin-bottom: 40px;
   width: 872px;
+
+  font-size: 0;
+}
+
+figure figcaption {
+  border: 1px solid #b6b6b6;
+  border-top: none;
+
+  padding: 19px 0;
+
+  font-weight: 400;
+  font-size: 14px;
+
+  text-align: center;
 }
 
 .grey {
@@ -171,6 +188,10 @@ figure {
 
 .books {
   background-image: url("/img/books-pattern.jpg");
+}
+
+.asterisk {
+  background-image: url("/img/asterisk.jpg");
 }
 
 .grey:not(:last-child) {

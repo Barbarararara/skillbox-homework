@@ -145,6 +145,14 @@ figure {
   border-radius: 20px;
   padding: 30px;
   background-color: #f3f3f3;
+
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 25% 100%;
+}
+
+.books {
+  background-image: url("/img/books-pattern.jpg");
 }
 
 .grey:not(:last-child) {

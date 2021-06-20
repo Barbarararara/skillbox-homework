@@ -50,6 +50,14 @@ h1,
   padding: 24px 49px 24px 49px;
 }
 
+.download-link {
+  padding-left: 30px;
+  background-image: url("/img/icon-download.svg");
+  background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
 /* article.html */
 .container {
   margin: 0 auto;

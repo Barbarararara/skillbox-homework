@@ -107,6 +107,20 @@ h1,
   line-height: 32px;
 }
 
+.blue-background {
+  padding: 50px 95px;
+  margin-bottom: 40px;
+
+  width: 100%;
+
+  border-radius: 20px;
+
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  background-color: #3f2aff;
+}
+
 .container ul {
   padding-left: 15px;
   padding-top: 10px;

@@ -2,11 +2,6 @@ html {
   box-sizing: border-box;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 img {
   max-width: 100%;
 }
@@ -60,7 +55,6 @@ h1,
   font-size: 18px;
   color: #3f2aff;
 }
-
 
 .content {
   padding: 24px 49px 24px 49px;
@@ -149,6 +143,10 @@ figure {
   background-repeat: no-repeat;
   background-position: right;
   background-size: 25% 100%;
+}
+
+.grey ul li::marker {
+  color: #3f2aff;
 }
 
 .books {

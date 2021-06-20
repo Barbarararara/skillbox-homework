@@ -46,6 +46,11 @@ h1,
   margin-right: 25px;
 }
 
+.download-link {
+  color: #3f2aff;
+}
+
+
 .content {
   padding: 24px 49px 24px 49px;
 }

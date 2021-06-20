@@ -83,6 +83,12 @@ h1,
 
 .container h1 {
   margin-bottom: 50px;
+
+  font-weight: 400;
+  font-size: 60px;
+  color: #333;
+
+  line-height: 60px;
 }
 
 .container h2,
@@ -93,6 +99,12 @@ h1,
 .container p {
   width: 872px;
   margin-bottom: 40px;
+
+  font-weight: 400;
+  font-size: 20px;
+  color: #333;
+
+  line-height: 32px;
 }
 
 .container ul {

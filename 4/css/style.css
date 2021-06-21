@@ -10,6 +10,10 @@ body {
   font-family: Arial, Verdana, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* index.html */
 .main-content {
   display: flex;
@@ -28,16 +32,23 @@ h1,
 
 .main-content h1 {
   margin-bottom: 40px;
-  font-size: 60px;
+
   font-weight: lighter;
+  font-size: 60px;
+
   letter-spacing: 3px;
 }
 
-.links a {
+.main-content h1 a {
+  color: #fff;
+}
+
+.main-content .links a {
   padding: 20px 30px;
 
   font-weight: 700;
   font-size: 18px;
+  color: #fff;
 
   background-color: #3f2aff;
 }
@@ -179,7 +190,6 @@ figure figcaption {
   border-bottom: 1px solid #3f2aff;
   font-size: 20px;
   color: #3f2aff;
-  text-decoration: none;
 }
 
 .grey ul li::marker {
